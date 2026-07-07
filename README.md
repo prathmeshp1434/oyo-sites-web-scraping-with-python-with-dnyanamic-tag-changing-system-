@@ -9,11 +9,11 @@ import cloudscraper
 url = "https://www.oyorooms.com/hotels-in-aurangabad/"
 
 scraper = cloudscraper.create_scraper()
-print("🔓 Lock ko todne ki koshish chal rahi hai...")
+print("🔓 connecting with server...")
 response = scraper.get(url)
 
 if response.status_code == 200:
-    print("🤖 Robot andar ghus gaya!")
+    print("🤖 Robot entered!")
     soup = BeautifulSoup(response.text, "html.parser")
     hotel_list = []
     
