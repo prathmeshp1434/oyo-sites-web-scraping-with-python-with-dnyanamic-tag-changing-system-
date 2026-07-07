@@ -1,10 +1,10 @@
 # oyo-sites-web-scraping-with-python-with-dnyanamic-tag-changing-system-
 
-import csv
+import CSV
 import json
-import re
+import cloudscraper 
 from bs4 import BeautifulSoup
-import cloudscraper
+import re
 
 url = "https://www.oyorooms.com/hotels-in-aurangabad/"
 
