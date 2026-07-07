@@ -1,4 +1,4 @@
-# oyo-sites-web-scraping-with-python-with-dnyanamic-tag-changing-system-
+
 
 import CSV
 import json
@@ -102,4 +102,4 @@ if response.status_code == 200:
     else:
         print("❌ Data nahi mil paya.")
 else:
-    print("🚫 Entry blocked.")
+    print(" 🚫 entry block...")
